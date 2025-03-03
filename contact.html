@@ -16,14 +16,14 @@
             <nav>
                 <ul>
                     <li><a href="/index.html">Home</a></li>
-                    <li><a href="/services.html">News</a></li>
+                    <li><a href="/services.html">Services</a></li>
                     <li><a href="/contact.html">Contact</a></li>
                     <li><a href="/about.html">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section style="height: 100%; margin:150px;">
+    <section style="height: 100%; margin:150px; flex:1;">
         <div>
             <h1>Contact Us</h1>
         </div>
@@ -52,14 +52,15 @@
                     </div>
                 </div>
 
-                <input type="submit" value="Submit" style="background-color: aqua; padding:10px;">
+                <input type="submit" value="Submit" id="submit-btn">
               </form>
         </div>
 
     </section>
     <footer>
-        <div style="display: flex; flex-direction: column; width: 100%; align-items: center;">
-            <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%;">
+
+            <div class="footer-icons">
                 <ul>
                     <li><i class="fa-brands fa-facebook fa-2xl"></i></li>
                     <li><i class="fa-brands fa-twitter fa-2xl"></i></li>
@@ -67,20 +68,21 @@
                     <li><i class="fa-brands fa-youtube fa-2xl"></i></li>
                 </ul>
             </div>
-            <div class="footer-bottom" style="display: flex; flex-direction: row;">
+    
+
+            <div class="footer-links">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Services</li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/services.html">Services</a></li>
                 </ul>
             </div>
             <div id="copyright">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quaerat esse aperiam vitae! Quibusdam cupiditate libero ad, numquam assumenda exercitationem a perferendis optio in provident iste deserunt eos nihil enim.</p>
+                <p>© 2025 Stillife. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
 <style>
     input{
         margin-top: 10px;
